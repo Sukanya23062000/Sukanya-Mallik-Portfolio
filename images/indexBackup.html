@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sukanya Mallik</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/02856a1e1e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="" class="logo">
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="headerText">
+                <p>Developer</p>
+                <h1>Hi, I'm <span>Sukanya Mallik</span><br>From Kolkata, India.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutCol1">
+                    <img src="images/suk1.jpg" alt="">
+                </div>
+                <div class="aboutCol2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p class="aboutPara">
+                        Hi there, I'm Sukanya Mallik, an IT student with a passion for creating innovative solutions to complex problems. 
+                        With my expertise in software development, project management, and quality assurance, I am committed to delivering 
+                        exceptional results for every project I undertake. I'm a quick learner and always eager to stay up-to-date with the 
+                        latest industry trends and technologies. My ability to work well in a team and communicate effectively with clients 
+                        sets me apart as a valuable asset to any IT industry job. When I'm not working on exciting new projects, I enjoy 
+                        reading about emerging technologies and exploring new programming languages.
+                    </p>
+                    <div class="tabTitles">
+                        <p class="tabLinks activeLink" onclick="openTab('skills')">Skills</p>
+                        <p class="tabLinks" onclick="openTab('experience')">Experience</p>
+                        <p class="tabLinks" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tabContents activeTab" id="skills">
+                        <ul>
+                            <li><span>Programming</span><br>C, Java/J2EE, SQL</li>
+                            <li><span>Persistent Technology</span><br>JDBC</li>
+                            <li><span>Web Technology</span><br>CSS, HTML, Bootstrap, JavaScript</li>
+                            <li><span>Tools</span><br>Eclipse, Visual Studio Code</li>
+                        </ul>
+                    </div>
+                    <div class="tabContents" id="experience">
+                        <ul>
+                            <li><span>Web Designing Project</span><br>Travel Agency Web Page</li>
+                            <li><span>Fresher</span><br>-----</li>
+                        </ul>
+                    </div>
+                    <div class="tabContents" id="education">
+                        <ul>
+                            <li><span>June, 2023</span><br>MSc in Computer Science from DAITM, MAKAUT, WB.</li>
+                            <li><span>June, 2021</span><br>BSc in Physics(Hons) under CU.</li>
+                            <li><span>February, 2018</span><br>Higher Secondary, WBCHSE.</li>
+                            <li><span>February, 2016</span><br>Madhyamik, WBBSE</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- -----------------Services------------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="servicesList">
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>Web Design</h2>
+                <p>Web Desiging with HTML, CSS, JavaScript. Currently pursuing a college project of Travel Agency Web Page.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Persistent Technology</h2>
+                <p>Persistant Database design with JDBC, Oracle.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>System Design</h2>
+                <p>System designing with various technologies like C, Java/J2EE, SQL etc.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- --------------------Portfolio-------------------- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="workList">
+            <div class="work">
+                <img src="images/work1.jpg" alt="">
+                <div class="layer">
+                    <h3>Home Page</h3>
+                    <p>In this page you can enter your travel details like destination, budget, date, no. of members etc.</p>
+                    <a href="#"><i class="fa-solid fa-house"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.jpg" alt="">
+                <div class="layer">
+                    <h3>Popular Package Page</h3>
+                    <p>In this page you can get all of the popular packages according to your travel details.</p>
+                    <a href="#"><i class="fa-solid fa-box-open"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.jpg" alt="">
+                <div class="layer">
+                    <h3>Feedback Page</h3>
+                    <p>In this page you can see the feedback of our customers.</p>
+                    <a href="#"><i class="fa-solid fa-comment"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+ <!-- ----------------Contact------------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactLeft">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sukanyamallik2000@gmail.com</p>
+                <p><i class="fa-solid fa-paper-plane"></i>robinsukanya@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 9674790633</p>
+                <div class="socialIcons">
+                    <a href="https://www.facebook.com/profile.php?id=100052858124537&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/moumou8291?igshid=NzMyMjgxZWIzNw=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/MallikSukanya?t=qi_IN0MCUDhKBLxRXUYRcQ&s=09"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/sukanya-mallik-058ba9242"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/MyCV.pdf" download class="btn cvBtn">Download CV</a>
+            </div>
+            <div class="contactRight">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn submitBtn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Sukanya. Made by <i class="fa-solid fa-heart"></i> Sukanya Mallik.</p>
+    </div>
+ </div>
+    <script>
+        var tabLinks = document.getElementsByClassName('tabLinks');
+        var tabContents = document.getElementsByClassName('tabContents');
+        function openTab(tabName) {
+            for(tabLink of tabLinks){
+                tabLink.classList.remove("activeLink");
+            }
+            for(tabContent of tabContents){
+                tabContent.classList.remove("activeTab");
+            }
+            event.currentTarget.classList.add("activeLink");
+            document.getElementById(tabName).classList.add("activeTab");
+            //console.log(document.getElementById(tabName).classList);
+        }
+
+    </script>
+    <script>
+        var sideMenu = document.getElementById("sideMenu");
+        function openMenu(){
+            sideMenu.style.right = "0";
+        }
+        function closeMenu(){
+            sideMenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
